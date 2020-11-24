@@ -1,4 +1,4 @@
-{" > package.json
+{
   "name": "learn-travis-jw",
   "description": "Simple Travis-CI check for JSHint (Code Linting)",
   "author": "wilfongjt",
