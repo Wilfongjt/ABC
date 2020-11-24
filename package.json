@@ -7,9 +7,9 @@
     "jshint": "^2.6.0"
   },
   "scripts": {
-    "test": "git subtree push --prefix a-app https://github.com/Wilfongjt/lb-A.git trunk",
-    "test-old": "echo 'hi' && exit 0",
-    "test-old-old": "jshint hello.js"
+    "test-old": "git subtree push --prefix a-app https://github.com/Wilfongjt/lb-A.git trunk",
+    "test-old-old": "echo 'hi' && exit 0",
+    "test": "jshint hello.js"
 
   }
 }
