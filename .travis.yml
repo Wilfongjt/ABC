@@ -2,4 +2,6 @@ language: node_js
 node_js:
  - "node"
 install:
-  - git subtree split push --prefix a-app https://Wilfongjt:$GH_TOKEN@github.com/Wilfongjt/lb-A.git trunk
+  - git push origin `git subtree split --prefix a-app https://Wilfongjt:$GH_TOKEN@github.com/Wilfongjt/lb-A.git trunk` --force
+
+  #- git subtree split push --prefix a-app https://Wilfongjt:$GH_TOKEN@github.com/Wilfongjt/lb-A.git trunk
